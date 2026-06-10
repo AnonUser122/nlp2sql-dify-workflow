@@ -6,16 +6,7 @@
 
 ## 项目文件
 
-```text
-.
-├── README.md
-├── dsl/
-│   └── README.md                 # DSL 文件存放说明
-└── assets/
-    └── README.md                 # 图片素材存放说明
-```
 
-建议后续补充后的目录结构：
 
 ```text
 .
