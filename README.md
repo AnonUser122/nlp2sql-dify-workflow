@@ -76,20 +76,19 @@ dsl/nlp2sql-assistant.yml
 
 ### 工作流编排截图
 
-![工作流编排截图](assets/workflow-canvas.png)
-(assets/workflow-canvas1.png)
-(assets/workflow-canvas2.png)
-(assets/workflow-canvas3.png)
-(assets/workflow-canvas4.png)
+![工作流编排截图1](assets/workflow-canvas.png)
+![工作流编排截图2](assets/workflow-canvas1.png)
+![工作流编排截图3](assets/workflow-canvas2.png)
+![工作流编排截图4](assets/workflow-canvas3.png)
+![工作流编排截图5](assets/workflow-canvas4.png)
 
 ### 自然语言查询效果截图
 
-![自然语言查询效果截图](assets/query-demo.png)
-(assets/query-demo1.png)
-(assets/query-demo2.png)
-(assets/query-demo3.png)
-(assets/query-demo4.png)
-
+![自然语言查询效果截图1](assets/query-demo.png)
+![自然语言查询效果截图2](assets/query-demo1.png)
+![自然语言查询效果截图3](assets/query-demo2.png)
+![自然语言查询效果截图4](assets/query-demo3.png)
+![自然语言查询效果截图5](assets/query-demo4.png)
 
 ## 导入说明
 
