@@ -85,10 +85,9 @@ dsl/nlp2sql-assistant.yml
 ### 自然语言查询效果截图
 
 ![自然语言查询效果截图1](assets/query-demo.png)
-![自然语言查询效果截图2](assets/query-demo1.png)
-![自然语言查询效果截图3](assets/query-demo2.png)
-![自然语言查询效果截图4](assets/query-demo3.png)
-![自然语言查询效果截图5](assets/query-demo4.png)
+![自然语言查询效果截图2](assets/query-demo2.png)
+![自然语言查询效果截图3](assets/query-demo3.png)
+![自然语言查询效果截图4](assets/query-demo4.png)
 
 ## 导入说明
 
