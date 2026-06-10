@@ -1,8 +1,8 @@
 # NLP2SQL 数据库查询助手 Dify 工作流
 
-这是 `NLP2SQL数据库查询助手` 的 GitHub 项目框架，用于存放 Dify 应用 DSL、工作流截图和效果展示图片。
+这是 `NLP2SQL数据库查询助手` 的 GitHub 项目，用于存放 Dify 应用 DSL、工作流截图和效果展示图片。
 
-当前仓库先搭建项目结构和说明文档，DSL 文件与截图后续可自行补充。
+
 
 ## 项目文件
 
@@ -21,12 +21,12 @@
 .
 ├── README.md
 ├── dsl/
-│   └── nlp2sql-assistant.yml     # Dify DSL 文件，后续自行上传
+│   └── nlp2sql-assistant.yml     # Dify DSL 文件
 └── assets/
     ├── app-home.png              # 应用首页截图
     ├── workflow-canvas.png       # 工作流编排截图
     ├── query-demo.png            # 自然语言查询效果截图
-    └── sql-result.png            # SQL/查询结果展示截图
+
 ```
 
 ## 应用简介
@@ -56,19 +56,11 @@
 
 ## DSL 文件位置
 
-请将导出的 Dify DSL 文件放到 `dsl/` 目录下，推荐命名为：
-
-```text
-dsl/nlp2sql-assistant.yml
-```
-
-上传 DSL 后，可在 Dify 中通过“导入 DSL 文件”的方式恢复应用。
 
 > 注意：请不要提交数据库密码、API Key、Token 等敏感信息。如果 DSL 中包含敏感配置，请先脱敏后再上传。
 
 ## 图片展示
 
-请将截图放到 `assets/` 目录，然后替换或使用下面的路径。
 
 ### 应用首页截图
 
@@ -89,14 +81,7 @@ dsl/nlp2sql-assistant.yml
 ![自然语言查询效果截图3](assets/query-demo3.png)
 ![自然语言查询效果截图4](assets/query-demo4.png)
 
-## 导入说明
 
-1. 打开 Dify 控制台。
-2. 进入应用列表页面。
-3. 选择导入 DSL。
-4. 上传 `dsl/nlp2sql-assistant.yml`。
-5. 根据本地环境重新配置模型供应商、数据库连接、工具权限和环境变量。
-6. 保存并运行测试。
 
 ## 配置提醒
 
@@ -109,12 +94,4 @@ dsl/nlp2sql-assistant.yml
 - API Key / Token
 - SQL 执行安全策略
 
-## 安全建议
 
-NLP2SQL 应用涉及数据库访问，建议：
-
-- 使用只读数据库账号。
-- 限制可查询的数据表范围。
-- 禁止执行 `INSERT`、`UPDATE`、`DELETE`、`DROP` 等写入或破坏性 SQL。
-- 对生成的 SQL 做白名单或人工确认。
-- 避免在截图、DSL、README 中暴露真实数据库地址、账号、密码和业务敏感数据。
