@@ -1,12 +1,8 @@
-# DSL 文件存放说明
+# DSL 文件存放
 
-请将 `NLP2SQL数据库查询助手` 从 Dify 导出的 DSL 文件放到当前目录。
+ 将`NLP2SQL数据库查询助手` 从 Dify 导出的 DSL 文件放到当前目录。
 
-推荐文件名：
 
-```text
-nlp2sql-assistant.yml
-```
 
 上传前请检查 DSL 中是否包含敏感信息，例如：
 
